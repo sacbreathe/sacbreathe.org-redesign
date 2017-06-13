@@ -1,0 +1,230 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:300,300i,700');
+
+/*css for main template*/
+
+/*All elements*/
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	line-height: 1.5em;
+	box-sizing: border-box;
+}
+
+/*general elements*/
+body {
+	background-color: #3F3F3F;
+	color: #3F3F3F;
+	font-size: 18px;
+}
+
+div#content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #fff;
+/*	z-index: -3;*/
+}
+section {
+/*	flex-basis: 720px;*/
+	width: 720px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+/*	background-color: #fff;*/
+}
+/*
+section:not(.inset){
+	background-color: #fff;
+}
+*/
+
+/*general typography*/
+h0 {
+	font-family: "montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .4em;
+}
+h1 {
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #3F3F3F;
+}
+h2 {
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #3F3F3F;
+	padding-top: .5em;
+	line-height: 1.5em;
+	text-transform: capitalize;
+}
+h3 {
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #3F3F3F;
+	margin: 0;
+	padding-top: 1em;
+	line-height: 1.5em;
+	text-transform: capitalize;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+/*	font-family: "adobe-garamond-pro",serif;*/
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5em;
+	padding-bottom: 1em;
+	margin-bottom: 0;
+}
+b {
+	font-weight: 700;
+}
+strong {
+	font-family: "adobe-garamond-pro",serif;
+	font-style: italic;
+	font-size: 5em;
+	line-height: 1em;
+	display: inline-block;
+	padding-bottom: 1em;
+}
+a{
+	color: #055ca7;
+	text-decoration: none;
+	font-weight: 700;
+}
+a:hover {
+/*	text-decoration: underline;*/
+}
+
+/*general blocks*/
+iframe {
+	display: block;
+	padding-bottom: 1em;
+}
+
+/*components*/
+.button {
+	display: inline-block;
+	opacity: 1;
+	padding: .5em;
+	background-color: #055ca7;
+	color: #fff;
+	box-shadow: 0px 9px 18px -9px rgba(0,0,0,0.5);
+	text-transform: capitalize;
+	margin-bottom: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+	font-weight: 400;
+}
+.lineBreak {
+	padding-bottom: 18px;
+}
+.card {
+	background-color: #fff;
+	padding: 1em 1em 2em 1em;
+	box-shadow: 0px 9px 18px 0px rgba(0,0,0,0.25);
+	width: 450px;
+	margin-bottom: 2em;
+}
+.inset{
+	box-shadow: inset 0px 9px 18px 0px rgba(0,0,0,0.75);
+}
+.shadow {
+	box-shadow: 0px 9px 18px 0px rgba(0,0,0,0.25);
+}
+.overlay {
+	background-color: #3f3f3f;
+/*	background-color: #fff;*/
+/*	width: 100%;*/
+	padding: .5em;
+	margin-bottom: 18px;
+	color: #fff;
+/*	color: #3F3F3F;*/
+}
+.gradientTop{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0.6+50,0+100 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+background: -webkit-linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%);
+background: -o-linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%);
+background: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+section.fullWidth{
+	width: 100%;
+	padding: 0;
+}
+
+/*Footer*/
+footer {
+	background-color: #3F3F3F;
+	color: #bfbfbf;
+	width: 100%;
+}
+footer ul {
+	display: flex;
+	justify-content: space-between;
+}
+footer ul li{
+	padding: .5em;
+	flex-basis: 50%;
+	list-style: none;
+}
+
+/*Media queries*/
+/*larger than phone styles*/
+@media (min-width: 720px) {
+/*
+    header ul li.hamburger{
+		display: none;
+	}
+*/
+}
+
+/*tablet and smaller styles*/
+@media (max-width: 720px) {
+/*
+	strong, h1, h2 {
+		font-size: 2em;
+	}
+*/
+/*
+    header ul li:not(.hamburger){
+        display: none;
+    }
+	header:hover ul li.hamburger{
+        display: none;
+    }
+	header:hover ul li:not(.hamburger){
+		display: block;
+	}
+*/
+	a {
+		opacity: 1;
+	}
+	section{
+		width: 100%;
+		padding: 1em;
+	}
+}
+
+/*phone and smaller*/
+@media (max-width: 540px) {
+	strong {
+		font-size: 4em;
+	}
+}
+
+/*smallest*/
+@media (max-width: 360px) {
+	strong {
+		font-size: 3em;
+	}
+}

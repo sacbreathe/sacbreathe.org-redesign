@@ -1,0 +1,206 @@
+/*header-specific*/
+/*all sizes*/
+div#headers {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+header {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	/*fixed height makes dropdowns drop below the header*/
+	height: 2.5em;
+	background-color: #ffffff;
+	z-index: 1;
+}
+/*every header link*/
+header a {
+	font-weight: 400;
+	color: #3f3f3f;
+}
+
+/*left side*/
+header a#brandName{
+	display: flex;
+	color: #3F3F3F;
+	text-decoration: none;
+}
+header a#brandName h0{
+	padding: .5em;
+	padding-left: .75em;
+}
+header a#brandName img{
+	position: relative;
+	top: 7px;
+	margin-left: .5em;
+}
+
+/*left side onHover*/
+header a#brandName .onHover {
+	position: absolute;
+	top: 9px;
+	left: 36px;
+}
+/*fly-in name*/
+header a#brandName .onHover h0{
+	background: #fff;
+	padding-top: 0;
+	padding-bottom: 0;
+	/*pre-transition rules*/
+	opacity: 0;
+	display: none;
+}
+/*post-animation rules*/
+header a#brandName:hover > .onHover h0 {
+	display: block;
+	animation: h0Dropdown .25s ease;
+	animation-fill-mode: forwards;
+}
+/*add delays*/
+header a#brandName > .onHover h0:nth-child(1) {animation-delay: .0s;}
+header a#brandName > .onHover h0:nth-child(2) {animation-delay: .1s;}
+header a#brandName > .onHover h0:nth-child(3) {animation-delay: .2s;}
+header a#brandName > .onHover h0:nth-child(4) {animation-delay: .3s;}
+/*define animation*/
+@keyframes h0Dropdown {
+	from {
+		opacity: 0;
+		margin-left: -18px;
+	}
+	to {
+		opacity: 1;
+		margin-left: 0px;
+	}
+}
+
+/*right side*/
+/*donate button*/
+header ul li#donate{
+	background-color: #055ca7;
+}
+header ul li#donate a {
+	color: #fff;
+}
+header ul li ul li {
+	background: #bfbfbf;
+}
+
+/*
+header a:hover{
+
+}
+*/
+
+div#headerSpacer{
+	height: 2.5em;
+}
+
+/*Media queries*/
+/*larger than phone styles*/
+@media (min-width: 721px) {
+	/*right side*/
+	/*size every button*/
+	header ul {
+		display: flex;
+		list-style: none;
+	}
+	header ul li {
+		width: 135px;
+		flex-direction: column;
+		text-align: center;
+		padding: .5em;
+	}
+	header ul li ul li {
+		display: none;
+		padding: .5em;
+	}
+	/*drop-downs*/
+	header ul li ul {
+	/*	display: inline-block;*/
+		display: flex;
+		flex-direction: column;
+		margin-left: -.5em;
+		margin-top: .5em;
+	}
+
+	/*show list items on hover*/
+	div#headers ul li:hover > ul li {
+		display: flex;
+		animation: navDropdown .25s ease-in-out;
+		animation-fill-mode: forwards;
+	} 
+    header ul li.hamburger{
+		display: none;
+	}
+}
+
+@keyframes navDropdown {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+
+/*phone and smaller styles*/
+@media (max-width: 720px) {
+	header ul li a {
+		padding: .5em;
+	}
+	
+	/*every button in the list*/
+	header ul {
+		height: 100%;
+	}
+	header ul li {
+		width: 270px;
+		background: #fff;
+	}
+	header ul li{
+		display: flex;
+		flex-direction: column;
+	}
+	header ul li ul li a {
+		padding-left: 1.5em;
+	}
+	
+	/*hamburger*/
+	/*hide hamburger on hover*/
+	header ul:hover li.hamburger{
+/*        display: none;*/
+    }
+	/*show lists when hamburger is hoveres*/
+	header ul li:not(.hamburger){
+		display: none;
+	}
+	/*show lists when hamburger is hovered*/
+	header ul:hover li:not(.hamburger){
+		display: flex;
+		animation: navDropdown .25s ease-in-out;
+		animation-fill-mode: forwards;
+	}
+	
+	/*what does the nav look like now?*/
+	header ul li a {
+/*		padding: .5em;*/
+	}
+	header ul li > ul li {
+		display: flex;
+	}
+
+	/*hamburger*/
+	header ul li.hamburger {
+		width: auto;
+		padding-right: 1em;
+	/*	padding: 1;*/
+		text-align: right;
+	}
+	header ul li.hamburger a {
+		padding-right: 0;
+	}
+	header ul li.hamburger a i {
+	}
+}

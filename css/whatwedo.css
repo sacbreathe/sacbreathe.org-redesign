@@ -1,0 +1,42 @@
+subheader {
+	z-index: 1;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+/*	justify-content: space-between;*/
+/*	background-color: #055ca7;*/
+	background-color: #3F3F3F;
+	color: #fff;
+}
+/*right side*/
+subheader p#pageName{
+	display: flex;
+	padding: .25em;
+	padding-left: .75em;
+}
+/*left side*/
+subheader ul {
+	display: flex;
+	list-style: none;
+}
+
+subheader a:hover{
+	text-decoration: underline;
+}
+subheader ul {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+/*nav buttons*/
+subheader ul li {
+	text-align: center;
+/*	width: 135px;*/
+	height: 100%;
+	padding: .25em 1em;
+}
+/*text inside buttons*/
+subheader ul li a {
+	color: #fff;
+	text-decoration: none;
+}

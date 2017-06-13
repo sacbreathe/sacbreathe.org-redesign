@@ -1,0 +1,93 @@
+subheader {
+	z-index: 1;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #3F3F3F;
+	color: #fff;
+}
+subheader a {
+	font-weight: 400;
+	color: #fff;
+}
+/*left side*/
+subheader h0{
+	width: 100%;
+	padding: .5em;
+/*	padding-bottom: 0;*/
+}
+subheader h0#pageName a {
+	font-family: "Montserrat";
+	color: #fff;
+}
+subheader a:hover{
+/*	text-decoration: underline;*/
+}
+
+/*Media queries*/
+/*larger than phone styles*/
+@media (min-width: 721px) {
+	subheader div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	/*nav buttons*/
+	subheader div a {
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		text-decoration: none;
+	}
+	subheader div a:not(.hamburger){
+		padding: .5em 1em .5em .5em;
+	}
+	
+    subheader div a.hamburger{
+		display: none;
+	}
+}
+
+/*phone and smaller styles*/
+@media (max-width: 720px) {
+	subheader {
+		flex-wrap: nowrap;
+	}
+	
+	/*left side*/
+	subheader h0{
+		padding: .5em;
+		margin-right: 45px;
+	}
+	
+	/*right side*/
+	subheader div a {
+		display: block;
+	}
+	subheader div a.hamburger{
+		padding: .5em 1em;
+		text-align: right;
+		height: 100%;
+		width: auto;
+	}
+	subheader div div{
+		position: absolute;
+		width: 270px;
+		margin-left: -219px;
+		z-index: 0;
+	}
+	subheader div div a {
+		padding: .5em;
+		display: none;
+	}
+	subheader:hover div div a {
+		display: block;
+		animation: navDropdown .25s ease-in-out;
+		animation-fill-mode: forwards;
+	}
+	subheader div a:not(.hamburger) {
+		background-color: #3f3f3f;
+	}
+}

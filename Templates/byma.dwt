@@ -1,0 +1,173 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Main Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<title>Breathe California Sacramento Region</title>
+<!--fontawesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Styles-->
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<link href="../css/header.css" rel="stylesheet" type="text/css">
+<!--Javascript-->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<!--TypeKit fonts-->
+<script src="https://use.typekit.net/hnl5xen.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script type="text/javascript" src="../js/main.js"></script>
+<!--Space to add extra scripts-->
+<!-- InstanceBeginEditable name="Head" -->
+<!--Make this uneditable with @@(" ")@@-->
+<link href="../css/lists.css" rel="stylesheet" type="text/css">
+<link href="../css/subheader.css" rel="stylesheet" type="text/css">
+<link href="../byma/byma.css" rel="stylesheet" type="text/css">
+<link href="../css/hero.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/hero.js"></script>
+<!-- TemplateParam name="sectionHero" type="boolean" value="true" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="SubHead" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <div id="headers">
+  	<header class="shadow">
+        <a href="../index.html" id="brandName">
+        	<img src="../images/BreatheCentennialLogo-Icon-Color.jpg" width="27" height="27" alt="Breathe Logo">
+        	<h0 class="offHover">BCSR</h0>
+        	<div class="onHover">
+        		<h0>Breathe</h0>
+        		<h0>California</h0>
+        		<h0>Sacramento</h0>
+        		<h0>Region</h0>
+        	</div>
+        </a>
+        <ul>
+            <li class="hamburger">
+                <a href="#">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            <li class="top">
+                <a>Who We Are</a>
+                <ul>
+                	<li>
+                		<a href="../index.html#ourstory">Our Story</a>
+                	</li>
+                	<li>
+                		<a href="../whoweare/staff/index.html">Staff</a>
+                	</li>
+                	<li>
+                		<a href="../whoweare/board/index.html">Board of Directors</a>
+                	</li>
+                </ul>
+            </li>
+            <li class="top">
+				<a>What We Do</a>
+                <ul>
+                	<li>
+                		<a href="../programs/index.html">Programs and Services</a>
+                	</li>
+                	<li>
+                		<a href="../events/index.html">Events</a>
+                	</li>
+                </ul>
+            </li>
+            <li class="top">
+                <a>Get In Touch</a>
+                <ul>
+                	<li>
+                		<a>Contact</a>
+                	</li>
+                	<li>
+                		<a>Social Media</a>
+                	</li>
+                	<li>
+                		<a>Newsletter</a>
+                	</li>
+                </ul>
+            </li>
+            <li id="donate">
+                <a href="#breathe" class="aTop">Donate</a>
+            </li>
+        </ul>
+    </header>
+    <!-- InstanceBeginEditable name="Subheader" -->
+    <!--Make this uneditable with @@(" ")@@-->
+    <subheader class="shadow">
+      <h0 id="pageName">
+      	<a href="../byma/index.html">Breathe Youth Media Awards</a>
+      </h0>
+         <div>
+              <a href="#" class="hamburger"><i class="fa fa-bars"></i></a>
+              <div>
+              	<a href="../byma/index.html">About</a>
+              	<a href="#whenandwhere">When and Where</a>
+              	<a href="../byma/videocontest.html">Video Contest</a>
+         	  </div>
+<!--               <a href="https://www.eventbrite.com/e/breathe-fest-live-local-breathe-easy-tickets-32739392404?aff=ehomecard">Purchase a Ticket</a>-->
+        </div>
+    </subheader>
+    <!-- InstanceEndEditable -->
+   	</div>
+    <div id="headerSpacer"></div>
+    
+	<div id="content"><!-- InstanceBeginEditable name="Content" -->
+    <!-- TemplateBeginIf cond="sectionHero" -->
+    <!--Make this uneditable with @@(" ")@@-->
+    <section id="hero" class="fullWidth">
+      <div class="heroImage" style="background-image: url(../byma/images/hero/1.JPG)"></div>
+      <div class="heroImage" style="background-image: url(../byma/images/hero/2.JPG)"></div>
+      <div class="heroImage" style="background-image: url(../byma/images/hero/3.JPG)"></div>
+      <div id="heroOverlay">
+        <div id="heroText"> <strong>The Breathe Youth Media Awards engage and educate teens</strong>
+          <p>...by recognizing tobacco's influence in film and celebrating anti-smoking media by local youth.</p>
+          <!--				<a class="button" href="https://www.eventbrite.com/e/breathe-fest-live-local-breathe-easy-tickets-32739392404?aff=ehomecard">Get your ticket</a>-->
+          <h0 id="scrollDown">Scroll down<br><i class="fa fa-chevron-down" aria-hidden="true"></i></h0>
+        </div>
+      </div>
+    </section>
+	<!-- TemplateEndIf -->
+	<!-- TemplateBeginEditable name="SubContent" -->
+	<!-- TemplateEndEditable -->
+	<!--Make this uneditable with @@(" ")@@-->
+	<section id="whenandwhere">
+		<h1>When and Where</h1>
+		<p>Saturday, February 25, 2017 <br> 6 - 9 PM</p>
+		<p>Elks Tower Ballroom<br>Sacramento, California 95814</p>
+	</section>
+	<section>
+		<h1>Our Partners</h1>
+		<ul class="gridSponsors">
+   		    <li><img src="../images/sponsors/cvshealth.jpg"></li>
+            <li><img src="../images/sponsors/pandaexpress.jpg"></li>
+            <li><img src="../images/sponsors/smartinvestor.jpg"></li>
+            <li><img src="../images/sponsors/rse.jpg"></li>
+            <li><img src="../images/sponsors/giggleandriot.jpg"></li>
+            <li><img src="../images/sponsors/jdproductions.jpg"></li>
+        </ul>
+	</section>	
+	<section>
+		<h1>Questions?</h1>
+		<p>Contact Jenny Matchell by phone at 916 444 5900 or via email at <a href="mailto:jmatchell@sacbreathe.org">jmatchell@sacbreathe.org</a>.</p>
+	</section>
+	<!-- InstanceEndEditable -->	
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<p>Breathe California of Sacramento-Emigrant Trails is committed to the fight for clean air, healthy lungs and a tobacco-free future in Northern California.</p>
+			</li>
+			<li>
+				<p>We are a recognized 501(c)3 nonprofit organization. Tax ID#: 94-1641240.</p>
+				<p>A member of the Breathe America™ Alliance</p>
+			</li>
+<!--
+			<li>
+				<p>A member of the Breathe America™ Alliance</p>
+			</li>
+-->
+		</ul>
+	</footer>
+	
+</body>
+<!-- InstanceEnd --></html>
