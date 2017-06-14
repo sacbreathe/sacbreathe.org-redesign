@@ -2,10 +2,10 @@
 /* CSS Document */
 
 /*regular old text grid?*/
-ul.listText{
+.listText{
 	padding-bottom: 1em;
 }
-ul.listText li {
+.listText li {
 	margin-left: 2em;
 }
 /*example: asthma collaborative members*/

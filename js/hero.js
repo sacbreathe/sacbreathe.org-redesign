@@ -16,12 +16,33 @@ $(document).ready(function(){
 	var heroHeight;
 	function heroStyles(){
 		//set the min-height of the hero div to be window - #headers
+		//heroHeight = ($(window).height());
 		heroHeight = ($(window).height() - $('#headers').height());
 		
 		//if there is a .subHero section, subtract that from the heroHeight, too
-		if(subHero === true){
-			heroHeight = heroHeight - $(".subHero").height();
-		}
+//		if(subHero === true){
+//			heroHeight = heroHeight - $(".subHero").height();
+//		}
+		
+		
+		//if headers are fixed, apply top margin to hero
+		
+		//alert($("#headers").css("position"));
+		
+		if($("#headers").css("position") === "fixed"){
+			//desktop
+			
+			//heroHeight = ($(window).height() - $('#headers').height());
+			
+//			$("#hero").css({
+//				"margin-top" : $('#headers').height()
+//			});
+		} 
+//		else if($("#headers").css("position") === "relative"){
+//			//mobile
+//			
+//			heroHeight = ($(window).height() - $('#headers').height());
+//		}
 		
 		//apply heroHeight
 		$("#hero").css({
@@ -30,7 +51,7 @@ $(document).ready(function(){
 		
 		//set the .heroImages to be that height
 		$(".heroImage").css({
-			"height" : heroHeight,
+			"height" : $("#hero").height(),
 			"top" : $('#headers').height()
 		});
 	}

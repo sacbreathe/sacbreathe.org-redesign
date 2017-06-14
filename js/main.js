@@ -14,14 +14,28 @@ $(document).ready(function(){
 	function styles(){
 		heightHeader = $("header").height();
 		
+		
 		//check for a subheader
 		if ($("subheader").length !== 0){
 			heightSubheader = $("subheader").outerHeight();
 		}
 		
-		heightHeaderSpacer = heightHeader + heightSubheader;
+		if($("#headers").css("position") === "fixed"){
+			//desktop
+			$("#headerSpacer").css({
+				"height" : $('#headers').height()
+			});
+		} else {
+			$("#headerSpacer").css({
+				"height" : 0
+			});
+		}
 		
-		$("div#headerSpacer").css("height",heightHeaderSpacer);
+		heightHeaderSpacer = $("#headerSpacer").height();
+		
+//		heightHeaderSpacer = heightHeader + heightSubheader;
+//		
+//		$("div#headerSpacer").css("height",heightHeaderSpacer);
 		
 		//make sure that content always starts under header
 //		$("div#content").css("padding-top",heightHeader);

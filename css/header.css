@@ -1,7 +1,7 @@
 /*header-specific*/
 /*all sizes*/
 div#headers {
-	position: fixed;
+/*	position: fixed;*/
 	width: 100%;
 	z-index: 2;
 }
@@ -96,13 +96,23 @@ header a:hover{
 }
 */
 
+/*
 div#headerSpacer{
 	height: 2.5em;
 }
+*/
 
 /*Media queries*/
 /*larger than phone styles*/
 @media (min-width: 721px) {
+	div#headers{
+		position: fixed;
+	}
+/*
+	div#headerSpacer{
+		height: 2.5em;
+	}
+*/
 	/*right side*/
 	/*size every button*/
 	header ul {
@@ -147,11 +157,16 @@ div#headerSpacer{
 
 /*phone and smaller styles*/
 @media (max-width: 720px) {
+	div#headers{
+		position: relative;
+		z-index: 2;
+	}
+	div#headerSpacer{
+		height: 0;
+	}
 	header ul li a {
 		padding: .5em;
 	}
-	
-	/*every button in the list*/
 	header ul {
 		height: 100%;
 	}

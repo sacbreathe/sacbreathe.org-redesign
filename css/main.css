@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 }
 
-/*general elements*/
+/*major sections*/
 body {
 	background-color: #3F3F3F;
 	color: #3F3F3F;
@@ -30,17 +30,10 @@ div#content {
 /*	z-index: -3;*/
 }
 section {
-/*	flex-basis: 720px;*/
 	width: 720px;
 	padding-top: 1em;
 	padding-bottom: 1em;
-/*	background-color: #fff;*/
 }
-/*
-section:not(.inset){
-	background-color: #fff;
-}
-*/
 
 /*general typography*/
 h0 {
@@ -110,7 +103,7 @@ iframe {
 	padding-bottom: 1em;
 }
 
-/*components*/
+/*components - inline*/
 .button {
 	display: inline-block;
 	opacity: 1;
@@ -160,6 +153,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 section.fullWidth{
 	width: 100%;
 	padding: 0;
+}
+
+/*components - block*/
+aside {
+	background : #055ca7;
+	padding: 1em;
+	color: #fff;
 }
 
 /*Footer*/
