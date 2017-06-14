@@ -121,7 +121,7 @@
 	<!-- TemplateBeginIf cond="sectionHero" -->
 	<section id="hero" class="fullWidth">
     <!--Make this uneditable with @@(" ")@@-->
-     	<div class="heroImage" style="background-image: url(../programs/yab/images/hero/1.JPG)"></div>
+     	<div class="heroImage" style="background-image: url(../programs/yab/images/hero/1.jpg)"></div>
       	<div class="heroImage" style="background-image: url(../programs/yab/images/hero/2.JPG)"></div>
       	<div id="heroOverlay">
         	<div id="heroText">
