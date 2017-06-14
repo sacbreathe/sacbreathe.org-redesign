@@ -1,5 +1,5 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/trek.dwt" codeOutsideHTMLIsLocked="false" -->
+<html><!-- InstanceBegin template="/Templates/Main Template.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="utf-8">
 <title>Breathe California Sacramento Region</title>
@@ -15,14 +15,14 @@
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <script type="text/javascript" src="../js/main.js"></script>
 <!--Space to add extra scripts-->
-
+<!-- InstanceBeginEditable name="Head" -->
 <link href="../css/lists.css" rel="stylesheet" type="text/css">
 <link href="../css/subheader.css" rel="stylesheet" type="text/css">
 <link href="../css/hero.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="../js/hero.js"></script>
-<link href="trek.css" rel="stylesheet" type="text/css">
-<!-- InstanceParam name="sectionHero" type="boolean" value="false" -->
-
+<!--<link href="../programs/stand/stand.css" rel="stylesheet" type="text/css">-->
+<!-- TemplateParam name="sectionHero" type="boolean" value="false" -->
+<!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="SubHead" -->
 <!-- InstanceEndEditable -->
 </head>
@@ -90,63 +90,49 @@
             </li>
         </ul>
     </header>
-    
-        <!--Make this uneditable with  -->
-        <subheader class="shadow">
-        	 <h0 id="pageName">
-        		<a href="index.html">Breathe Bike Trek</a>
-      		 </h0>
-      		 
-       		 <div>
-               	<a class="hamburger"><i class="fa fa-bars"></i></a>
-               	<div>
-                	<a href="index.html">About</a>
-               		<a href="register.html">Register to Ride</a>
-                	<a href="riderlogin.html">Rider Login</a>
-                	<a href="riderinfo.html">Information for Riders</a>
-                	<a href="volunteerinfo.html">Information for Volunteers</a>
-                	<a href="training.html">Training Rides</a>
-					<a href="routes.html">Routes</a>
-           			<a href="faqs.html">FAQ</a>
-           		</div>
-        </div>
+    <!-- InstanceBeginEditable name="Subheader" -->
+    <!--Make this uneditable with @@(" ")@@-->
+    <subheader class="shadow">
+      <h0 id="pageName">
+      	<a href="../programs/organicsrecycling/index.html">Organics Recycling</a>
+      </h0>
     </subheader>
-    
+    <!-- InstanceEndEditable -->
    	</div>
     <div id="headerSpacer"></div>
     
-	<div id="content">
-   	
-	<!-- InstanceBeginEditable name="SubContent" -->
-	<section>
-		<h1>2017 Training Schedule</h1>
-		<ul class="listText">
-			<h2>9 AM Start</h2>
-			<li><s>Saturday, January 21st</s> Cancelled due to weather</li>
-			<li>Saturday, February 25th</li>
-			<li>Saturday, March 18th</li>
-			<li>Saturday, April 9th</li>
-			<h2>8:30 am Start</h2>
-			<li>Saturday, June 10th (arrive at 8 a.m. for training*)</li>
-			<li>Sunday, June 25th</li>
-			<li>Saturday, July 8th (arrive at 8 a.m. for HILLS, HILLS, HILLS*)</li>
-			<li>Sunday, July 23rd</li>
-			<li>Saturday, August 12th (arrive at 8 a.m. for training*)</li>
-			<li>Sunday, August 27th</li>
-			<h2>Trainings: 8 am - 8:30 am</h2>
-			<li>June 10th — become one with your wheel! Learn how the pros change a tire!</li>
-			<li>July 8th — Hill. Repeat. Hill. Repeat. Hill. You get the idea!</li>
-			<li>August 12th — you are what you eat. Proper fueling to make sure you RIDE ON!</li>
-		</ul>
-	</section>
+	<div id="content"><!-- InstanceBeginEditable name="Content" -->
+	<!-- TemplateBeginIf cond="sectionHero" -->
+	<section id="hero" class="fullWidth">
+      <!--Make this uneditable with @@(" ")@@-->
+      <div class="heroImage" style="background-image: url(../programs/organicsrecycling/images/1.JPG)"></div>
+      <div id="heroOverlay">
+        <div id="heroText">
+        	<strong>Organics Recycling engages schools in making a difference.</strong>
+<!--          <p>...engages youth in making a difference in the health of our environment</p>-->
+          <a class="button" href="../trek/register.html">Register to Ride</a>
+          <h0 id="scrollDown">Scroll down<br>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i></h0>
+        </div>
+      </div>
+    </section>
+	<!-- TemplateEndIf -->
 	
-	<!-- InstanceEndEditable -->
-	<!--Make this uneditable with  -->
+	<!-- TemplateBeginEditable name="SubContent" -->
+	<!-- TemplateEndEditable -->
+	<!--Make this uneditable with @@(" ")@@-->
+	<section>
+		<h1>Our Partners</h1>
+		<ul class="gridSponsors">
+   		    <li><img src="../images/sponsors/smaqmd.jpg"></li>
+        </ul>
+	</section>
 	<section>
 		<h1>Questions?</h1>
-		<p>Contact Trek Manager Stacy Springer by phone at 916 444 5900 ext. 209 or via email at <a href="mailto:sspringer@sacbreathe.org">sspringer@sacbreathe.org</a>.</p>
+		<p>Contact Katie Cox by phone at 916 444 5900 ext. 213 or via email at <a href="mailto:kcox@sacbreathe.org">kcox@sacbreathe.org</a>.</p>
 	</section>
-		
+	
+	<!-- InstanceEndEditable -->	
 	</div>
 	<footer>
 		<ul>

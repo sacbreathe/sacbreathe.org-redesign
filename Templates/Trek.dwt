@@ -116,7 +116,7 @@
     <div id="headerSpacer"></div>
     
 	<div id="content"><!-- InstanceBeginEditable name="Content" -->
-   <!-- TemplateBeginIf cond="sectionHero" -->
+   	<!-- TemplateBeginIf cond="sectionHero" -->
     <section id="hero" class="fullWidth">
       <!--Make this uneditable with @@(" ")@@-->
       <div class="heroImage" style="background-image: url(../trek/images/hero/1.JPG)"></div>

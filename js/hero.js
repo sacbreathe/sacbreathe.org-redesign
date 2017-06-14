@@ -30,7 +30,8 @@ $(document).ready(function(){
 		
 		//set the .heroImages to be that height
 		$(".heroImage").css({
-			"height" : heroHeight
+			"height" : heroHeight,
+			"top" : $('#headers').height()
 		});
 	}
 	
