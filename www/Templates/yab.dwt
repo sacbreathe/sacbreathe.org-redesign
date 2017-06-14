@@ -1,0 +1,189 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/www/Templates/Main Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breathe California Sacramento Region</title>
+<!--fontawesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Styles-->
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<link href="../css/header.css" rel="stylesheet" type="text/css">
+<!--Javascript-->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+<!--TypeKit fonts-->
+<script src="https://use.typekit.net/hnl5xen.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script type="text/javascript" src="../js/main.js"></script>
+<!--Space to add extra scripts-->
+<!-- InstanceBeginEditable name="Head" -->
+<link href="../css/lists.css" rel="stylesheet" type="text/css">
+<link href="../css/subheader.css" rel="stylesheet" type="text/css">
+<link href="../css/hero.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/hero.js"></script>
+<link href="../programs/yab/yab.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="sectionHero" type="boolean" value="false" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="SubHead" -->
+<!-- InstanceEndEditable -->
+<!--Google Analytics Begin-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-56253043-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+  <div id="headers">
+  	<header class="shadow">
+        <a href="../index.html" id="brandName">
+        	<img src="../images/BreatheCentennialLogo-Icon-Color.jpg" width="27" height="27" alt="Breathe Logo">
+        	<h0 class="offHover">BCSR</h0>
+        	<div class="onHover">
+        		<h0>Breathe</h0>
+        		<h0>California</h0>
+        		<h0>Sacramento</h0>
+        		<h0>Region</h0>
+        	</div>
+        </a>
+        <ul>
+            <li class="hamburger">
+                <a href="#">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            <li class="top">
+                <a>Who We Are</a>
+                <ul>
+                	<li>
+                		<a href="../whoweare/ourstory/index.html">Our Story</a>
+                	</li>
+                	<li>
+                		<a href="../whoweare/staff/index.html">Staff</a>
+                	</li>
+                	<li>
+                		<a href="../whoweare/board/index.html">Board of Directors</a>
+                	</li>
+                	<li>
+                		<a href="../whoweare/affiliates.html">Affiliates</a>
+                	</li>
+                </ul>
+            </li>
+            <li class="top">
+				<a>What We Do</a>
+                <ul>
+                	<li>
+                		<a href="../programs/index.html">Programs and Services</a>
+                	</li>
+                	<li>
+                		<a href="../events/index.html">Events</a>
+                	</li>
+                </ul>
+            </li>
+            <li class="top">
+                <a>Get In Touch</a>
+                <ul>
+                	<li>
+                		<a href="../getintouch/contact.html">Contact</a>
+                	</li>
+                	<li>
+                		<a href="../getintouch/socialmedia.html">Social Media</a>
+                	</li>
+<!--
+                	<li>
+                		<a>Newsletter</a>
+                	</li>
+-->
+                </ul>
+            </li>
+            <li id="donate">
+                <a href="https://secure2.convio.net/bcset/site/Donation2?1100.donation=form1&df_id=1100" class="aTop">Donate</a>
+            </li>
+        </ul>
+    </header>
+    <!-- InstanceBeginEditable name="Subheader" -->
+    <!--Make this uneditable with @@(" ")@@-->
+    <subheader class="shadow">
+      <h0 id="pageName">
+      	<a href="../programs/yab/index.html">Youth Advisory Board</a>
+      </h0>
+         <div>
+              <a href="#" class="hamburger"><i class="fa fa-bars"></i></a>
+              <div>
+              	<a href="../programs/yab/index.html">About</a>
+                <a href="../programs/yab/fulldescription.html">Full Job Description</a>
+              </div>
+        </div>
+    </subheader>
+    <!-- InstanceEndEditable -->
+   	</div>
+    <div id="headerSpacer"></div>
+	<div id="content">
+	<!-- InstanceBeginEditable name="Content" -->
+	
+<!--
+	<section class="fullWidth">
+	<div id="hero">
+		<div id="heroText">
+			<strong class="overlay">Our Youth Advisory Board engages talented local youth in Breathe's mission.</strong>
+			<a href="../programs/yab/downloads/2016_17_YAB_Application.pdf" class="button">Apply to join YAB</a>
+		</div>
+	</div>
+	</section>
+-->
+	<!-- TemplateBeginIf cond="sectionHero" -->
+	<section id="hero" class="fullWidth">
+    <!--Make this uneditable with @@(" ")@@-->
+     	<div class="heroImage" style="background-image: url(../programs/yab/images/hero/1.jpg)"></div>
+      	<div class="heroImage" style="background-image: url(../programs/yab/images/hero/2.JPG)"></div>
+      	<div id="heroOverlay">
+        	<div id="heroText">
+        		<strong>Our Youth Advisory Board engages talented local youth in Breathe's mission.</strong>
+          		<h0 id="scrollDown">Scroll down<br>
+           		<i class="fa fa-chevron-down" aria-hidden="true"></i></h0>
+        	</div>
+      	</div>
+    </section>
+	
+ 	<!-- TemplateEndIf -->
+ 	<!-- TemplateBeginEditable name="SubContent" -->
+  	<!-- TemplateEndEditable -->
+	<!--Make this uneditable with @@(" ")@@-->
+	<section>
+		<h1>Interested in Joining?</h1>
+		<p>Applications are accepted each year in the summer. If you are interested in joining the 2016-17 Youth Advisory Board, please submit an application by August 5, 2016 to Katie Cox, Youth Programs Manager via email at <a href="mailto:kcox@sacbreathe.org">kcox@sacbreathe.org</a> or by mail:</p>
+		<p>Breathe California of Sacramento-Emigrant Trails<br>Attn. Selection Committee c/o Katie Cox<br>909 12th Street, Suite 100<br>Sacramento, CA 95814</p>
+		<a href="../../Templates/downloads/2016_17_YAB_Application.pdf" class="button">Apply to join YAB</a>
+	</section>
+	<section>
+		<h1>Questions?</h1>
+		<p>Contact Katie Cox by phone at 916 444 5900 ext. 213 or via email at <a href="mailto:kcox@sacbreathe.org">kcox@sacbreathe.org</a>.</p>
+	</section>
+	
+	<!-- InstanceEndEditable -->	
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<p>Breathe California Sacramento Region is committed to the fight for clean air, healthy lungs and a tobacco-free future in Northern California.</p>
+			</li>
+			<li>
+				<p>We are a recognized 501(c)3 nonprofit organization. Tax ID#: 94-1641240.</p>
+				<p>A member of the Breathe America™ Alliance</p>
+			</li>
+		</ul>
+	</footer>
+</body>
+<!-- InstanceEnd --></html>

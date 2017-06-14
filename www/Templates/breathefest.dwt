@@ -1,0 +1,221 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/www/Templates/Main Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breathe California Sacramento Region</title>
+<!--fontawesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Styles-->
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<link href="../css/header.css" rel="stylesheet" type="text/css">
+<!--Javascript-->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+<!--TypeKit fonts-->
+<script src="https://use.typekit.net/hnl5xen.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script type="text/javascript" src="../js/main.js"></script>
+<!--Space to add extra scripts-->
+<!-- InstanceBeginEditable name="Head" -->
+<link href="../css/lists.css" rel="stylesheet" type="text/css">
+<link href="../css/subheader.css" rel="stylesheet" type="text/css">
+<link href="../css/hero.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/hero.js"></script>
+<link href="../breathefest/breathefest.css" rel="stylesheet" type="text/css">
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="SubHead" -->
+<!-- InstanceEndEditable -->
+<!--Google Analytics Begin-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-56253043-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+  <div id="headers">
+  	<header class="shadow">
+        <a href="../index.html" id="brandName">
+        	<img src="../images/BreatheCentennialLogo-Icon-Color.jpg" width="27" height="27" alt="Breathe Logo">
+        	<h0 class="offHover">BCSR</h0>
+        	<div class="onHover">
+        		<h0>Breathe</h0>
+        		<h0>California</h0>
+        		<h0>Sacramento</h0>
+        		<h0>Region</h0>
+        	</div>
+        </a>
+        <ul>
+            <li class="hamburger">
+                <a href="#">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            <li class="top">
+                <a>Who We Are</a>
+                <ul>
+                	<li>
+                		<a href="../whoweare/ourstory/index.html">Our Story</a>
+                	</li>
+                	<li>
+                		<a href="../whoweare/staff/index.html">Staff</a>
+                	</li>
+                	<li>
+                		<a href="../whoweare/board/index.html">Board of Directors</a>
+                	</li>
+                	<li>
+                		<a href="../whoweare/affiliates.html">Affiliates</a>
+                	</li>
+                </ul>
+            </li>
+            <li class="top">
+				<a>What We Do</a>
+                <ul>
+                	<li>
+                		<a href="../programs/index.html">Programs and Services</a>
+                	</li>
+                	<li>
+                		<a href="../events/index.html">Events</a>
+                	</li>
+                </ul>
+            </li>
+            <li class="top">
+                <a>Get In Touch</a>
+                <ul>
+                	<li>
+                		<a href="../getintouch/contact.html">Contact</a>
+                	</li>
+                	<li>
+                		<a href="../getintouch/socialmedia.html">Social Media</a>
+                	</li>
+<!--
+                	<li>
+                		<a>Newsletter</a>
+                	</li>
+-->
+                </ul>
+            </li>
+            <li id="donate">
+                <a href="https://secure2.convio.net/bcset/site/Donation2?1100.donation=form1&df_id=1100" class="aTop">Donate</a>
+            </li>
+        </ul>
+    </header>
+    <!-- InstanceBeginEditable name="Subheader" -->
+        <!--Make this uneditable with @@(" ")@@-->
+    <subheader class="shadow">
+     	<h0 id="pageName">
+      		<a href="../breathefest/index.html">Breathe Fest / Clean Air Awards</a>
+      	</h0>
+      	<div>
+           	<a href="#" class="hamburger"><i class="fa fa-bars"></i></a>
+            	<div>
+            		<a href="../breathefest/index.html">About</a>
+            		<a href="#whenandwhere">When and Where</a>
+            		<a href="https://www.eventbrite.com/e/breathe-fest-live-local-breathe-easy-tickets-32739392404?aff=ehomecard">Purchase a Ticket</a>
+            	</div>
+        </div>
+    </subheader>
+    <!-- InstanceEndEditable -->
+   	</div>
+    <div id="headerSpacer"></div>
+	<div id="content">
+	<!-- InstanceBeginEditable name="Content" -->
+	<section id="hero" class="fullWidth">
+		<div class="heroImage" style="background-image: url(../breathefest/images/hero/1.jpg)"></div>
+		<div class="heroImage" style="background-image: url(../breathefest/images/hero/2.JPG)"></div>
+		<div class="heroImage" style="background-image: url(../breathefest/images/hero/3.JPG)"></div>
+		<div class="heroImage" style="background-image: url(../breathefest/images/hero/4.JPG)"></div>
+		<div class="heroImage" style="background-image: url(../breathefest/images/hero/5.JPG)"></div>
+		<div class="heroImage" style="background-image: url(../breathefest/images/hero/6.JPG)"></div>
+		<div id="heroOverlay">
+			<div id="heroText">
+				<strong>Breathe Fest celebrates sustainability</strong><p>...by showcasing the positive connections between living local and our region's air quality. It's also the new home of our annual Clean Air Awards.</p>
+				<a class="button" href="https://www.eventbrite.com/e/breathe-fest-live-local-breathe-easy-tickets-32739392404?aff=ehomecard">Get your ticket</a>
+				<h0 id="scrollDown">Scroll down<br><i class="fa fa-chevron-down" aria-hidden="true"></i></h0>
+			</div>
+		</div>
+	</section>
+
+<!--
+	<section id="heroImages">
+		<ul>
+-->
+			<!--define the stack of images, css and js will take care of the rest-->
+<!--
+			<li style="background-image: url(../whoweare/staff/images/staffCarol.jpg)"></li>
+			<li style="background-image: url(../whoweare/staff/images/staffDarin.jpg)"></li>
+			<li style="background-image: url(../whoweare/staff/images/staffKatie.jpg)"></li>
+			<li style="background-image: url(../whoweare/staff/images/staffPlaceholder.jpg)"></li>
+		</ul>
+	</section>
+	<section id="heroText">
+-->
+	<!--Make this uneditable with @@(" ")@@-->
+<!--
+		<strong>Breathe Fest</strong><p>celebrates sustainability in the Sacramento region by showcasing the positive connections between living local and our region’s air quality. Since 2017, it is also the home of our Clean Air Awards.</p>
+		<a class="button" href="https://www.eventbrite.com/e/breathe-fest-live-local-breathe-easy-tickets-32739392404?aff=ehomecard">Get your ticket</a>
+	</section>
+-->
+	<!-- TemplateBeginEditable name="SubContent" -->
+	<!-- TemplateEndEditable -->
+	<!--Make this uneditable with @@(" ")@@-->
+	<section id="whenandwhere">
+		<h1>When and Where</h1>
+		<p>Saturday, October 21, 2017 <br> 6 - 9 PM</p>
+		<p>Memorial Auditorium <br> 1515 J Street <br> Sacramento, California 95814</p>
+	</section>
+	<section>
+		<h1>Our Partners</h1>
+		<ul class="gridSponsors">
+   		    <li><img src="../images/sponsors/smaqmd.jpg"></li>
+            <li><img src="../images/sponsors/sacrt.jpg"></li>
+            <li><img src="../images/sponsors/sacog.jpg"></li>
+            <li><img src="../images/sponsors/capradio.jpg"></li>
+            <li><img src="../images/sponsors/sacstatesustainability.jpg"></li>
+            <li><img src="../images/sponsors/sacmetrochamber.jpg"></li>
+            <li><img src="../images/sponsors/smud.jpg"></li>
+            <li><img src="../images/sponsors/railyards.jpg"></li>
+        </ul>
+        <ul class="listSponsors">
+       		<li><p>Coca-Cola Refreshments</p></li>
+            <li><p>Five Star Bank</p></li>
+            <li><p>Placer County APCD</p></li>
+            <li><p>Sacramento Association of Realtors</p></li>
+            <li><p>Smith, Watts &amp; Hartmann</p></li>
+            <li><p>Teichert Construction</p></li>         
+            <li><p>UC Davis Health</p></li>
+            <li><p>Western Health Advantage</p></li>
+            <li><p>Yolo-Solano AQMD</p></li>
+        </ul>
+	</section>	
+	<section>
+		<h1>Questions?</h1>
+		<p>Contact Trek Manager Stacy Springer by phone at 916 444 5900 ext. 209 or via email at <a href="mailto:sspringer@sacbreathe.org">sspringer@sacbreathe.org</a>.</p>
+	</section>
+	<!-- InstanceEndEditable -->	
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<p>Breathe California Sacramento Region is committed to the fight for clean air, healthy lungs and a tobacco-free future in Northern California.</p>
+			</li>
+			<li>
+				<p>We are a recognized 501(c)3 nonprofit organization. Tax ID#: 94-1641240.</p>
+				<p>A member of the Breathe America™ Alliance</p>
+			</li>
+		</ul>
+	</footer>
+</body>
+<!-- InstanceEnd --></html>
