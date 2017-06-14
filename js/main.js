@@ -32,29 +32,6 @@ $(document).ready(function(){
 		}
 		
 		heightHeaderSpacer = $("#headerSpacer").height();
-		
-//		heightHeaderSpacer = heightHeader + heightSubheader;
-//		
-//		$("div#headerSpacer").css("height",heightHeaderSpacer);
-		
-		//make sure that content always starts under header
-//		$("div#content").css("padding-top",heightHeader);
-		//make sure that the content is always at least the height of the screen minus the 
-//		$("div#content").css("min-height",heightWindowLessHeader);
-		
-		//make sure gridPhotos li are square, based on screen width
-//		if(contentInnerWidth >= 720){
-//			gridPhotosPerRow = 4;
-//		} else if (contentInnerWidth < 720 && contentInnerWidth > 480) {
-//			gridPhotosPerRow = 3;
-//		} else if (contentInnerWidth < 480 && contentInnerWidth > 360) {
-//			gridPhotosPerRow = 2;
-//		} else if (contentInnerWidth <= 360){
-//			gridPhotosPerRow = 2;
-//		}
-//		
-//		$("ul.gridPhotos li").css("width",contentInnerWidth/gridPhotosPerRow);
-//		$("ul.gridPhotos li").css("height",contentInnerWidth/gridPhotosPerRow);
 	} 
 	
 //smooth scrolling function	
