@@ -42,6 +42,9 @@ ul.listColumns2 li{
 	padding-bottom: 2em;
 	width: 100%;
 }
+.gridPhotos a *:not(div){
+	padding-right: 1em;
+}
 /*the container for a photo and text*/
 .gridPhotos a {
 	width: 33%;

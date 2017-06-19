@@ -7,11 +7,25 @@
 	display: inline-block;
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #gridHome a p {
 	width: 100%;
 	background-color: rgba(63,63,63,.9);
+	padding: .25em;
+	color: #fff;
+}
+
+#gridHome a.gridHomeButton {
+	background-color: #01793f;
+}
+
+#gridHome a.gridHomeButton p {
+	width: 100%;
+	font-size: 2em;
+/*	background-color: rgba(63,63,63,.9);*/
+	background-color: transparent;
 	padding: .25em;
 	color: #fff;
 }
