@@ -88,33 +88,20 @@ header ul li#donate a {
 }
 header ul li ul li {
 	background: #bfbfbf;
+	transition: all .25s ease;
+}
+header ul li ul li:hover {
+	box-shadow: 0 0 18px 0 rgba(0,0,0,0.25);
+	z-index: 2;
 }
 
-/*
-header a:hover{
 
-}
-*/
-
-/*
-div#headerSpacer{
-	height: 2.5em;
-}
-*/
 
 /*Media queries*/
-/*larger than phone styles*/
 @media (min-width: 721px) {
 	div#headers{
 		position: fixed;
 	}
-/*
-	div#headerSpacer{
-		height: 2.5em;
-	}
-*/
-	/*right side*/
-	/*size every button*/
 	header ul {
 		display: flex;
 		list-style: none;
@@ -169,6 +156,7 @@ div#headerSpacer{
 	}
 	header ul {
 		height: 100%;
+		cursor: pointer;
 	}
 	header ul li {
 		width: 270px;

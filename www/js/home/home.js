@@ -21,7 +21,7 @@ $(document).ready(function(){
 		heroHeight = ($(window).height() - $('#headers').height());
 		
 		//subtract height of top grid item from heroHeight
-		heroHeight = heroHeight - $("div#gridHome a:first-child").height();
+		heroHeight = heroHeight - $("div.gridPhotos a:first-child div div").height();
 		
 		$("#hero").css({
 			"min-height" : heroHeight
